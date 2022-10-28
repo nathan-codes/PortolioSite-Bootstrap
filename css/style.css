@@ -1,0 +1,41 @@
+/*Import fonts from css file*/
+
+
+@import url(/css/fonts.css);
+
+body{
+    font-family: "Roboto";
+}
+
+
+#mainNav .navbar-brand  {
+    width: 5rem;
+    /* padding-left: 10em; */
+}
+
+
+
+/*changing the color of active nav link to red*/
+#mainNav .navbar-nav li .active {
+    color: #E0144C;
+}
+
+
+
+
+
+
+
+
+
+#mainNav .navbar-collapse li a {
+    margin-right: 1rem;
+    text-decoration: none; 
+    font-weight: 100;
+    font-size: 0.8rem;
+    color: black;
+}
+
+#mainNav .navbar-collapse li a:hover{
+    color: #E0144C;
+} 
