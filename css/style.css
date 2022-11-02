@@ -17,7 +17,7 @@
 
 /*Styles for links*/
 .mainHeader .mainMenu .navbar .nav-item .nav-link{
-    padding:  1.5rem;
+    padding:  1.3rem;
     font-weight: 500;
     font-family: var(--roboto);
     color: var(--title-color);
@@ -38,3 +38,10 @@
 }
 
 /* (End) Styles for  Main Navigation  */
+
+
+/* Herro Section Styles -Start */
+
+
+
+/* Herro Section Styles -End */
