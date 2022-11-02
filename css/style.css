@@ -4,6 +4,10 @@
 /* css variables */
 @import url(/css/partials/--variables.css);
 
+/* Include global css styles */
+@import url(/css/partials/--global.css);
+
+
 
 
 /* (Start) Styles for  Main Navigation  */
@@ -35,13 +39,62 @@
 .mainHeader .mainMenu .navbar .nav-item .nav-link:hover{
     color: var(--primary-color);
 
-}
+}/* (End) Styles for  Main Navigation  */
 
-/* (End) Styles for  Main Navigation  */
+
+
 
 
 /* Herro Section Styles -Start */
+#hero {
+    height: 100vh;
+    background-image: url(/Images/BannerImage/home-banner.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#hero .site-title{
+    padding-top: 5rem;
+    padding-left: 8rem;
+    font-weight: 500;
+}
+
+#hero .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background-color: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+#hero .site-title h1{
+    font-size: 4rem;
+}
+
+#hero .site-title h4{
+    font-size: 1.3rem;
+}
+
+
+#hero img {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding: 5rem 2rem;
+}
+
+
+
+.button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
 
 
 /* Herro Section Styles -End */
