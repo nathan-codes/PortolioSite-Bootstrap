@@ -1,41 +1,40 @@
 /*Import fonts from css file*/
-
-
 @import url(/css/fonts.css);
 
-body{
-    font-family: "Roboto";
-}
-
-
-#mainNav .navbar-brand  {
-    width: 5rem;
-    /* padding-left: 10em; */
-}
+/* css variables */
+@import url(/css/partials/--variables.css);
 
 
 
-/*changing the color of active nav link to red*/
-#mainNav .navbar-nav li .active {
-    color: #E0144C;
+/* (Start) Styles for  Main Navigation  */
+
+.mainHeader .mainMenu .navbar .navbar-brand {   
+    width: 6rem;
+  
 }
 
 
 
-
-
-
-
-
-
-#mainNav .navbar-collapse li a {
-    margin-right: 1rem;
-    text-decoration: none; 
-    font-weight: 100;
-    font-size: 0.8rem;
-    color: black;
+/*Styles for links*/
+.mainHeader .mainMenu .navbar .nav-item .nav-link{
+    padding:  1.5rem;
+    font-weight: 500;
+    font-family: var(--roboto);
+    color: var(--title-color);
 }
 
-#mainNav .navbar-collapse li a:hover{
-    color: #E0144C;
-} 
+
+
+
+.mainHeader .mainMenu .navbar .nav-item .active{
+    color: var(--primary-color);
+
+}
+
+
+.mainHeader .mainMenu .navbar .nav-item .nav-link:hover{
+    color: var(--primary-color);
+
+}
+
+/* (End) Styles for  Main Navigation  */
