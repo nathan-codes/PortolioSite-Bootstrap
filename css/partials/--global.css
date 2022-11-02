@@ -16,7 +16,7 @@
     font-size: 16px;
     line-height: 20px;
     position: relative;
-    border: 3px solid transparent;
+    border: 4px solid transparent;
     border-radius: 4px;
 } 
 
@@ -29,13 +29,21 @@
     box-shadow: var(--box-shadow);
 }
 
-.button.primary-secondary{
-    background: whitesmoke;
+.button.secondary-button{
+    background: white;
     background-clip: padding-box;
-    border: 1px solid red;
     transition: background .6s ease;
+
+}
+
+
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
     box-shadow: var(--box-shadow);
 }
+
+
 
 
 .button.primary-button:hover{
@@ -45,13 +53,14 @@
 }
 
 
-.button.primary-button::after{
+.button.primary-button::after,.button.secondary-button::after{
+    content: '';
     position: absolute;
     top: -2px;left: -2px;
     bottom: -2px;right: -2px;
     background: var(--gradient-color);
-    content: '';
     z-index: -1;
     border-radius: 4px;
 
 }
+
