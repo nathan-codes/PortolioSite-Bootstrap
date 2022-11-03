@@ -47,7 +47,6 @@
 
 /* Herro Section Styles -Start */
 #hero {
-    height: 100vh;
     background-image: url(/Images/BannerImage/home-banner.png);
     background-position: 130%;
     background-repeat: no-repeat;
@@ -98,3 +97,17 @@
 
 
 /* Herro Section Styles -End */
+
+
+/* About Section Styles Start */
+#about .container h3{
+    letter-spacing:1rem;
+}
+/* About Section Styles End */
+
+
+#about .container p{
+    color: var(--text-color);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
