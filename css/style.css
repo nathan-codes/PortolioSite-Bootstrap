@@ -100,14 +100,31 @@
 
 
 /* About Section Styles Start */
-#about .container h3{
-    letter-spacing:1rem;
+#about {
+    padding: 8rem 5rem;
 }
-/* About Section Styles End */
+
+
+
+#about .container span{
+    display: block;
+    font-size: 3rem;
+    font-family: var(--roboto);
+    font-weight: bold;
+    letter-spacing:1rem;
+    line-height: 60px;
+}
+
 
 
 #about .container p{
     color: var(--text-color);
     font-size: 0.8rem;
     font-weight: 500;
+ 
 }
+
+
+
+
+/* About Section Styles End */
