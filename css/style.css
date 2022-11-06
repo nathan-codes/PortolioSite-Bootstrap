@@ -12,16 +12,16 @@
 
 /* (Start) Styles for  Main Navigation  */
 
-.mainHeader .mainMenu .navbar .navbar-brand {   
+.mainHeader .mainMenu .navbar .navbar-brand {
     width: 6rem;
-  
+
 }
 
 
 
 /*Styles for links*/
-.mainHeader .mainMenu .navbar .nav-item .nav-link{
-    padding:  1.3rem;
+.mainHeader .mainMenu .navbar .nav-item .nav-link {
+    padding: 1.3rem;
     font-weight: 500;
     font-family: var(--roboto);
     color: var(--title-color);
@@ -30,16 +30,18 @@
 
 
 
-.mainHeader .mainMenu .navbar .nav-item .active{
+.mainHeader .mainMenu .navbar .nav-item .active {
     color: var(--primary-color);
 
 }
 
 
-.mainHeader .mainMenu .navbar .nav-item .nav-link:hover{
+.mainHeader .mainMenu .navbar .nav-item .nav-link:hover {
     color: var(--primary-color);
 
-}/* (End) Styles for  Main Navigation  */
+}
+
+/* (End) Styles for  Main Navigation  */
 
 
 
@@ -53,13 +55,13 @@
     background-size: cover;
 }
 
-#hero .site-title{
+#hero .site-title {
     padding-top: 5rem;
     padding-left: 8rem;
     font-weight: 500;
 }
 
-#hero .site-title h3::after{
+#hero .site-title h3::after {
     content: "";
     height: 2px;
     width: 18vw;
@@ -69,11 +71,11 @@
     transform: translateY(-10px);
 }
 
-#hero .site-title h1{
+#hero .site-title h1 {
     font-size: 4rem;
 }
 
-#hero .site-title h4{
+#hero .site-title h4 {
     font-size: 1.3rem;
 }
 
@@ -88,7 +90,7 @@
 
 
 
-.button.primary-button{
+.button.primary-button {
     background: var(--gradient-color);
     background-clip: padding-box;
     color: whitesmoke;
@@ -107,25 +109,93 @@
 
 
 
-#about .container span{
+#about .container span {
     display: block;
     font-size: 3rem;
     font-family: var(--roboto);
     font-weight: bold;
-    letter-spacing:1rem;
+    letter-spacing: 1rem;
     line-height: 60px;
 }
 
 
 
-#about .container p{
+#about .container p {
     color: var(--text-color);
     font-size: 0.8rem;
     font-weight: 500;
- 
+
 }
 
 
 
 
 /* About Section Styles End */
+
+/* Brands Section Styling */
+
+
+#brands {
+    padding: 1rem 20rem;
+    margin-bottom: 3rem;
+}
+
+#brands .container .singleBrand img {
+    filter: brightness(0.4);
+}
+
+
+#brands .container .singleBrand {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.3rem 0rem;
+    margin: .4rem 0;
+    cursor: pointer;
+    transition: transform .4s ease;
+
+
+}
+
+#brands .container .singleBrand:hover {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+
+}
+
+#brands .container .singleBrand img:hover {
+    filter: brightness(1);
+}
+
+
+#brands .container .experience-area {
+    padding-left: 1rem;
+    width: 80%;
+    background-color: #e029290a;
+}
+
+
+#brands .container .experience-area span {
+    display: block;
+}
+
+
+#brands .container .experience-area .call-area {
+    padding-top: 10rem;
+}
+
+#brands .container .experience-area .years-area .years {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: var(--roboto);
+    color: var(--primary-color);
+    z-index: 2;
+    text-shadow: 1;
+}
+
+#brands .container .experience-area .years-area  span {
+    
+    font-weight: 600;
+    font-size:.8rem;
+    line-height: 20px;
+    font-family: var(--roboto)
+}

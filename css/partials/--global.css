@@ -73,3 +73,7 @@ p.para {
     font-size: 16px;
     line-height: 25px;    
 }
+
+font-roboto {
+    font-family: var(--roboto);
+}
