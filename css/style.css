@@ -212,7 +212,7 @@
 
     background-color:#f8fdff;
     border:none;
-    transition: transform 0.7s ease;
+    transition: box-shadow 0.7s ease;
 }
 
 #services .container .row .card img {
@@ -224,7 +224,7 @@
 
 #services .container .row .card:hover {
     box-shadow: var(--box-shadow);
-    transform: scale(1.1);
+  
 }
 
 
