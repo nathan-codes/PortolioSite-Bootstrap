@@ -132,7 +132,7 @@
 
 /* About Section Styles End */
 
-/* Brands Section Styling */
+/* Brands Section Styling  Start*/
 
 
 #brands {
@@ -199,3 +199,33 @@
     line-height: 20px;
     font-family: var(--roboto)
 }
+
+
+/* Brands Section Styling  End*/
+
+/* Services Section Styling Start */
+
+#services .container .row{
+    padding: 1rem 12rem;
+}
+#services .container .row .card{
+
+    background-color:#f8fdff;
+    border:none;
+    transition: transform 0.7s ease;
+}
+
+#services .container .row .card img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#services .container .row .card:hover {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+
+/* Services Section Styling End */
